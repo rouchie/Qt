@@ -1,4 +1,6 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    002
+    002 \
+    003 \
+    004

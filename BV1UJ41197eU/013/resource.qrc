@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>013.pro</file>
+    </qresource>
+</RCC>

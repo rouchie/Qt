@@ -12,6 +12,10 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->statusbar->addPermanentWidget(m_pStatusMsg);
     ui->statusbar->addPermanentWidget(m_pStatusProgress, 1);
+    ui->pushButton->setWhatsThis("main what this.");
+    ui->pushButton_2->setWhatsThis("main what this2.");
+
+    this->setWindowFlags(windowFlags() & Qt::WindowContextHelpButtonHint);
 }
 
 MainWindow::~MainWindow()

@@ -7,7 +7,6 @@ Dialog::Dialog(QWidget *parent)
 {
     ui->setupUi(this);
     ui->pushButton->setToolTip("hello, tooltip");
-    ui->pushButton_2->setWhatsThis("hello, what this");
 }
 
 Dialog::~Dialog()
